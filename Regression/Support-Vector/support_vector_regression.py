@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Importing the dataset
-dataset = pd.read_csv(r"/Users/victorchirino/Projects/learning-ml/Regression/Support-Vector/Position_Salaries.csv")
+dataset = pd.read_csv(r"/Users/victorchirino/Projects/hello-machine-learning/Regression/Support-Vector/Position_Salaries.csv")
 X = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 print(X)

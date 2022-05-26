@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv(r'/Users/victorchirino/Projects/learning-ml/DataPreprocessing/Data.csv')
+dataset = pd.read_csv(r'/Users/victorchirino/Projects/hello-machine-learning/DataPreprocessing/Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 print(X)
