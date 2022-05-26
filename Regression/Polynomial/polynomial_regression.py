@@ -54,3 +54,7 @@ y_pred_linear = lin_reg.predict([[6.5]])
 
 # Predicting a new result with Polynomial rregression for 6.5
 y_pred_polynomial = lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
+
+# Evaluating The Model Performance
+from sklearn.metrics import r2_score
+print(r2_score(y_test, y_pred_polynomial))

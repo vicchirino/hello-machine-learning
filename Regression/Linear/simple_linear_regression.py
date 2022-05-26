@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import sklearn
 
 # Importing dataset
 dataset = pd.read_csv(r'/Users/victorchirino/Projects/hello-machine-learning/Regression/Linear/Salary_Data.csv')
@@ -36,3 +37,7 @@ plt.title("Salary vs Experience (test set)")
 plt.xlabel("Years of Experience")
 plt.ylabel("Salary")
 plt.show()
+
+# Evaluating The Model Performance
+from sklearn.metrics import r2_score
+print(r2_score(y_test, y_pred))
