@@ -17,3 +17,4 @@ Course: https://www.udemy.com/course/machinelearning/
 - matplotlib: https://matplotlib.org
 - pandas: https://pandas.pydata.org
 - scikit-learn: https://scikit-learn.org/stable/
+- https://www.superdatascience.com/blogs/the-ultimate-guide-to-regression-classification (Regression/Classification models)
